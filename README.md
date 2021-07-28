@@ -23,7 +23,7 @@ vagrant up
 
 ### To use postgres virtualbox in centos 7 with port forwarding (5432) to local machine
 
-curl https://raw.githubusercontent.com/svenugopal333/SRJ-Vagrant/main/Postgres-Centos7/pgcentos7-Vagrantfile > Vagrantfile
+curl https://raw.githubusercontent.com/saranintellify/dbt-Intellify/main/Postgres-Centos7/pgcentos7-Vagrantfile > Vagrantfile
 
 vagrant up
 
@@ -33,7 +33,7 @@ psql -h 127.0.0.1 -p 5432 -d postgres -U pgadmin -W
 
 ### To use dbt postgres virtualbox in centos 7 with port forwarding (5432) to local machine
 
-curl https://raw.githubusercontent.com/svenugopal333/SRJ-Vagrant/main/DBT-Postgres-Centos7/dbt-Vagrantfile > Vagrantfile
+curl https://raw.githubusercontent.com/saranintellify/dbt-Intellify/main/DBT-Postgres-Centos7/dbt-Vagrantfile > Vagrantfile
 
 vagrant up
 
